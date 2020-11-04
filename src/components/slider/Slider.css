@@ -1,0 +1,46 @@
+.containerSlider {
+    margin-top: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.containerSlider > .slider-image,
+.containerSlider > .slider-text{
+    border: 1px solid black;
+}
+.slider-text h1{
+    margin-top: 280px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: #fa5652;
+}
+.slider-text h2{
+    margin: 0;
+    font-size: 25px;
+    color: #035755;
+}
+.slider-text p{
+    width: 283px;
+    margin-top: 18px;
+    font-size: 13px;
+    color: #4b4f51;
+}
+.btn {
+    display: block;
+    background: #fb4c47;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    width: 130px;
+    height: 25px;
+    line-height: 25px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.slider-image{
+    width: 795px;
+}
+.slider-image img {
+    width: 100%;
+}
