@@ -27,8 +27,6 @@
 }
 .btn {
     display: block;
-    background: #fb4c47;
-    color: white;
     padding: 10px;
     font-size: 12px;
     text-align: center;
@@ -37,6 +35,10 @@
     line-height: 25px;
     text-decoration: none;
     border-radius: 30px;
+}
+.btn-red{
+    color: white;
+    background: #fb4c47;
 }
 .slider-image{
     width: 795px;

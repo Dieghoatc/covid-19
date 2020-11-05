@@ -1,0 +1,36 @@
+.containerCoronavirus{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.containerCoronavirus > .covid-image,
+.containerCoronavirus > .covid-text {
+    border: 1px solid black;
+}
+.covid-image{
+    width: 680px;
+}
+.covid-image img {
+    width: 100%;
+}
+.covid-text h2{
+    margin-top: 150px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: #fa5652;
+}
+.covid-text h3{
+    margin: 0;
+    font-size: 25px;
+    color: #035755;
+}
+.covid-text p{
+    width: 300px;
+    margin-top: 18px;
+    font-size: 13px;
+    color: #4b4f51;
+}
+.btn-rose {
+    color: #fa5652;
+    background-color: rgba(250, 86, 82, 0.15);
+}

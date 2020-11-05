@@ -1,0 +1,37 @@
+.itemContainer {
+    display: grid;
+    gap: 10px;   
+    grid-template-columns: repeat(2, 1fr); 
+}
+.itemContainer > .itemText{    
+    height: 160px;
+    margin-top: 200px;
+}
+.icon {
+    background:rgba(250, 86, 82, 0.15);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-top: 14px; 
+    line-height: 75px;
+    text-align: center;
+    color: #fa5652;
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+    margin-right: 15px;
+    grid-row: 1/1;
+}
+.itemText h3 {
+    color: #035755;
+    font-size: 28px;
+}
+.itemText p {
+    color: #4b4f51;
+    margin-left: 90px;
+    font-size: 14px;
+    width: 63%;
+}
+.conte div {
+    position: relative;
+}
