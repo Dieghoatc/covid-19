@@ -2,11 +2,10 @@
     display: grid;
     margin-top: 33px;
     gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
-.containerHeader > .logo,
-.containerHeader > .nav {
-    border: 1px solid black;
+.containerHeader .nav{
+    grid-column: 2/4;
 }
 .logo {
     float: left;
@@ -35,4 +34,27 @@
 }
 .menu a:hover {
     color:  #fb4c47;
+}
+@media only screen and (max-width: 600px) {
+    .containerHeader .nav{
+        grid-column: 1/4;
+    } 
+    .containerHeader .logo{
+        grid-column: 1/4;
+    } 
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .menu ul li{
+        list-style: none;
+        display: block;
+        margin-right: 40px;
+    }
+    .menu {
+        float: none;
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+    }
 }

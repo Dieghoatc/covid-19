@@ -10,7 +10,7 @@ class Slider extends Component {
                 <h1>COVID-19 Alert</h1>
                 <h2>Stay At Home Quarantine To Stop Corona Virus</h2>
                 <p>There Is No Specific Medicine To Prevent Or Treat Coronavirus Disease (COVID-19). People May Need Supportive Care To</p>
-                <a href="" className="btn btn-red"><strong>Let Us Help</strong></a>
+                <a href="/" className="btn btn-red"><strong>Let Us Help</strong></a>
             </div>
             <div className="slider-image">
                 <img src={SliderImage} alt="Image1"/>

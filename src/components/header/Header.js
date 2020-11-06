@@ -12,10 +12,10 @@ class Header extends Component {
             <div className="nav">
                 <nav className="menu">
                     <ul>
-                        <li><a href="/Overview">Overview</a></li>
-                        <li><a href="/Contagion">Contagion</a></li>
-                        <li><a href="/Symptoms">Symptoms</a></li>
-                        <li><a href="/Prevention">Prevention</a></li>
+                        <li><a href="#Overview">Overview</a></li>
+                        <li><a href="#Contagion">Contagion</a></li>
+                        <li><a href="#Symptoms">Symptoms</a></li>
+                        <li><a href="#Prevention">Prevention</a></li>
                     </ul>
                 </nav>
             </div>

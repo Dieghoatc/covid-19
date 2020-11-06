@@ -32,6 +32,35 @@
     font-size: 14px;
     width: 63%;
 }
-.conte div {
-    position: relative;
+.itemImage img {
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (min-width: 992px) {
+    .itemContainer > .itemText{    
+        height: 160px;
+        margin-top: 130px;
+    }    
+}
+@media only screen and (min-width: 768px) {
+    .itemContainer > .itemText{    
+        height: 160px;
+        margin-top: 50px;
+    }    
+}
+@media only screen and (max-width: 600px) {
+    .itemContainer .itemText{  
+        grid-template-columns: 1/3;
+        text-align: center;
+    }
+    .itemContainer .itemImage{   
+        grid-template-columns: 1/3;
+    }
+    .itemContainer > .itemText{    
+        height: 160px;
+        margin-top: 50px;
+    }   
+    .itemText p{
+        visibility: hidden;
+    }
 }

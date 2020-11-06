@@ -3,8 +3,10 @@ import Header from './components/header/Header';
 import Slider from './components/slider/Slider';
 import SectionCoronavirus from './components/sections/Coronavirus';
 import Contagion from './components/sections/Contagion';
-import Symptomps from './components/sections/Symptomps';
-import Should from './components/sections/Should';
+import Symptoms from './components/sections/Symptoms';
+import Prevention from './components/sections/Prevention';
+
+import Pagination from './components/pagination/Pagination';
 
 function App() {
   return (
@@ -17,8 +19,10 @@ function App() {
             <Slider />
             <SectionCoronavirus/>
             <Contagion/>
-            <Symptomps/>
-            <Should />
+            <Symptoms/>
+            <Prevention />
+            <Pagination />
+            <Header />
           </div>
         </div>
       </header>

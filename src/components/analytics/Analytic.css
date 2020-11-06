@@ -1,0 +1,47 @@
+.containerAnalytic {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);    
+}
+.containerAnalytic > .analyticHead,
+.containerAnalytic > .pagination {
+    grid-column: 1/4;
+    text-align: center;    
+}
+.containerAnalytic h3 {
+    color: #035755;
+    font-size: 15px;
+    text-align: center;
+}
+.analyticHead h2 {
+    color: #035755;
+    font-size: 18px;
+}
+.analyticHead p{
+    color: #4b4f51;
+    font-size: 12px;
+}
+.pagination {
+    display: inline-block;
+    display:  flex;
+    justify-content: flex-end;
+    margin: 30px;
+  }
+  
+  .pagination span {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination span.active {
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+  }
+  .pagination span:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  

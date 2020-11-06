@@ -10,6 +10,7 @@ class Contagion extends Component {
     render() {
         return <div className="containerContagion">
             <div className="text-contagion">
+                <a name="Contagion"></a>
                 <h2>Covid-19</h2>
                 <h3>Contagion</h3>
                 <p>Corona Viruses Are A Type Of Virus. There Are Many Different Kinds, And Some Cause Disease. A Newly Identified Type</p>

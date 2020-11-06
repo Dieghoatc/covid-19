@@ -6,7 +6,7 @@ class Card extends Component {
         return <div className="card">
             <img src={this.props.image} alt="" />
             <div className="cardBody">
-                <h4><b>{this.props.textSubtitle}</b></h4>
+                <h4>{this.props.textSubtitle}</h4>
                 <p>{this.props.textDescription}</p>
                 <div className="underlined"></div>
             </div>

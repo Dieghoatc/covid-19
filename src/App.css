@@ -1,9 +1,14 @@
 .container{
     display: grid;
     gap:10px;
-    grid-template-columns: repeat(2, 1fr);
-    /*border: 1px solid black;*/
+    grid-template-columns: repeat(12, 1fr);    
 }
 .container .content{
-    width: 1200px;
+    grid-column: 2/13;
+}
+@media only screen and (max-width: 600px) {
+    .container .content{
+        grid-column-start: 1;
+        grid-column-end: 13;
+    }
 }

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import FirstItem from '../items/FirstItem'
 import SecondtItem from '../items/SecondItem'
-import './Should.css'
+import './Prevention.css'
 
 import MaskGirl from '../../assets/MaskGirl1.svg'
 import MaskGirl2 from '../../assets/Mask_girl.svg'
@@ -10,10 +10,11 @@ import MaskGirl3 from '../../assets/Group_15454.svg'
 import MaskGirl4 from '../../assets/Mask.svg'
 
 
-class Should extends Component {
+class Prevention extends Component {
     render() {
-        return <div className="containerShould">
-            <div className="shouldText">
+        return <div className="containerPrevention">
+            <div className="PreventionText">
+            <a name="Prevention"></a>
                 <h2>Covid-19</h2>
                 <h3>What Should We Do</h3>
                 <p>Corona Viruses Are A Type Of Virus. There Are Many Different Kinds, And Some Cause Disease. A Newly Identified Type Has Caused</p>
@@ -53,4 +54,4 @@ class Should extends Component {
         </div>
     }
 }
-export default Should
+export default Prevention

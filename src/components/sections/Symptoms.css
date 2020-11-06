@@ -1,0 +1,37 @@
+.containerSymptoms{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(2)
+}
+.containerSymptoms .sympText{
+    grid-column-start: 1;
+    grid-column-end: 12;
+    width: 100%;
+    text-align: center;
+}
+.sympText h2{
+    margin-top: 80px;
+    font-size: 18px;
+    color: #fa5652;
+}
+.sympText h3{
+    font-size: 25px;
+    color: #035755;
+}
+.sympText p{
+    font-size: 13px;
+    color: #4b4f51;
+}
+.sympText p::after{
+    text-transform: uppercase;
+}
+.containerSymptoms .sympImage{
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 12;
+}
+.sympImage img {
+    height: 100%;
+    width: 100%;
+}

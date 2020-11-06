@@ -13,7 +13,7 @@ class Coronavirus extends Component {
                 <h2>What Is  Covid-19</h2>
                 <h3>Coronavirus</h3>
                 <p>Corona Viruses Are A Type Of Virus. There Are Many Different Kinds, And Some Cause Disease. A Newly Identified Type Has Caused A Recent Outbreak Of Respiratory Illnes Now Called COVID-19. Lauren Sauer, M.S., The Director Of Operations With The Johns Hopkins Office Of Critical Event Preparedness And Response</p>
-                <a href="" className="btn btn-rose"><strong>Learn More</strong></a>
+                <a href="/learnMore.html" className="btn btn-rose"><strong>Learn More</strong></a>
             </div>
         </div>
     }

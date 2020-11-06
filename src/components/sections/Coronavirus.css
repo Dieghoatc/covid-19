@@ -1,20 +1,22 @@
 .containerCoronavirus{
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(12, 1fr);
 }
-.containerCoronavirus > .covid-image,
-.containerCoronavirus > .covid-text {
-    border: 1px solid black;
+.containerCoronavirus .covid-image{
+    grid-column-start: 1;
+    grid-column-end: 7;
 }
-.covid-image{
-    width: 680px;
+.containerCoronavirus .covid-text{
+    grid-column-start: 7;
+    grid-column-end: 13;
+    text-align: center;
 }
 .covid-image img {
     width: 100%;
 }
 .covid-text h2{
-    margin-top: 150px;
+    margin-top: 80px;
     margin-bottom: 0px;
     font-size: 18px;
     color: #fa5652;
@@ -25,12 +27,27 @@
     color: #035755;
 }
 .covid-text p{
-    width: 300px;
+    width: 60%;
+    margin: 0 auto;
     margin-top: 18px;
     font-size: 13px;
     color: #4b4f51;
 }
 .btn-rose {
+    margin-top: 25px;
     color: #fa5652;
     background-color: rgba(250, 86, 82, 0.15);
+    margin-left: 26%;
+}
+@media only screen and (max-width: 600px) {
+    .containerCoronavirus .covid-image{
+        grid-column-start: 1;
+        grid-column-end: 13;
+    }
+    .containerCoronavirus .covid-text{
+        grid-column-start: 1;
+        grid-column-end: 13;
+        grid-row: 1;
+        text-align: center;
+    }
 }

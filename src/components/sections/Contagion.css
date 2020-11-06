@@ -1,19 +1,26 @@
 .containerContagion {
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(1);
 
 }
-.containerContagion > .text-contagion,
 .containerContagion > .transmision,
 .containerContagion > .contacts,
 .containerContagion > .objects {
-    border: 1px solid black;
-    height: 350px;
+    grid-row: 2;
+}
+.containerContagion .transmision{
+    grid-column: 2/5;
+}
+.containerContagion .contacts{
+    grid-column: 5/8;
+}
+.containerContagion .objects{
+    grid-column: 8/11;
 }
 .containerContagion .text-contagion {
-    grid-column: 1/4;
-    height: 150px;
+    grid-column: 1/13;
     text-align: center;
 }
 .text-contagion h2{
@@ -33,4 +40,30 @@
     color: #4b4f51;
     width: 400px;
     margin: 0 auto;
+}
+@media only screen and (max-width: 600px) {
+    .containerContagion{
+        margin: 10px;
+    }
+    .containerContagion .transmision{
+        margin-top: 15px;
+        grid-column: 1/12;
+        grid-row: 2;
+    }
+    .containerContagion .contacts{
+        grid-column: 1/12;
+        grid-row: 3;
+    }
+    .containerContagion .objects{
+        grid-column: 1/12;
+        grid-row: 4;
+    }
+    .containerContagion .text-contagion {
+        grid-column: 1/12;
+        text-align: center;
+    }
+    .text-contagion p{
+        width: 100%;
+        margin: 0 auto;
+    }
 }

@@ -1,26 +1,28 @@
-.containerSymptomps{
+.containerPrevention {
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr;
 }
-.containerSymptomps > .sympText{
+.containerPrevention > .PreventionText {
     grid-column: 1/1;
     width: 100%;
     text-align: center;
 }
-.sympText h2{
+.containerShould >.shouldPrevention,
+.containerShould > .item1,
+.containerShould > .item2 {
+    border: 1px solid black;
+}
+.PreventionText h2{
     margin-top: 80px;
     font-size: 18px;
     color: #fa5652;
 }
-.sympText h3{
+.PreventionText h3{
     font-size: 25px;
     color: #035755;
 }
-.sympText p{
+.PreventionText p{
     font-size: 13px;
     color: #4b4f51;
-}
-.sympText p::after{
-    text-transform: uppercase;
 }
